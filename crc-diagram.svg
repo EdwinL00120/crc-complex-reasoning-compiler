@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 620" width="800" height="620" font-family="'Courier New', Courier, monospace">
+
+  <!-- Background -->
+  <rect width="800" height="620" fill="#0d1117" rx="12"/>
+
+  <!-- Title -->
+  <text x="400" y="44" text-anchor="middle" fill="#e6edf3" font-size="18" font-weight="bold" letter-spacing="2">CRC — Complex Reasoning Compiler</text>
+  <text x="400" y="66" text-anchor="middle" fill="#7d8590" font-size="11" letter-spacing="1">Reasoning you can audit · Process you can teach · AI you can trust</text>
+
+  <!-- Divider -->
+  <line x1="60" y1="80" x2="740" y2="80" stroke="#21262d" stroke-width="1"/>
+
+  <!-- Mode badges top right -->
+  <rect x="564" y="92" width="60" height="22" rx="4" fill="#1a2433" stroke="#238636" stroke-width="1"/>
+  <text x="594" y="107" text-anchor="middle" fill="#3fb950" font-size="10" font-weight="bold">LITE</text>
+
+  <rect x="632" y="92" width="80" height="22" rx="4" fill="#1a2433" stroke="#1f6feb" stroke-width="1"/>
+  <text x="672" y="107" text-anchor="middle" fill="#58a6ff" font-size="10" font-weight="bold">STANDARD</text>
+
+  <rect x="720" y="92" width="60" height="22" rx="4" fill="#1a2433" stroke="#9e6a03" stroke-width="1"/>
+  <text x="750" y="107" text-anchor="middle" fill="#d29922" font-size="10" font-weight="bold">HEAVY</text>
+
+  <text x="558" y="107" text-anchor="end" fill="#7d8590" font-size="10">modes:</text>
+
+  <!-- ===== STEPS ===== -->
+
+  <!-- Step 0 -->
+  <rect x="60" y="130" width="500" height="58" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+  <rect x="60" y="130" width="6" height="58" rx="3" fill="#58a6ff"/>
+  <text x="82" y="153" fill="#7d8590" font-size="10">STEP 0</text>
+  <text x="82" y="171" fill="#e6edf3" font-size="13" font-weight="bold">Task Normalizer</text>
+  <text x="230" y="171" fill="#7d8590" font-size="11">→  整理輸入，生成標準化 Task Spec</text>
+
+  <!-- Human Review Point 1 -->
+  <rect x="572" y="138" width="168" height="42" rx="6" fill="#161b22" stroke="#f0883e" stroke-width="1" stroke-dasharray="4,2"/>
+  <text x="656" y="155" text-anchor="middle" fill="#f0883e" font-size="10">⏸  Human Review</text>
+  <text x="656" y="170" text-anchor="middle" fill="#7d8590" font-size="9">確認 Task Spec</text>
+
+  <!-- Arrow -->
+  <line x1="310" y1="188" x2="310" y2="208" stroke="#30363d" stroke-width="1.5"/>
+  <polygon points="306,205 314,205 310,212" fill="#30363d"/>
+
+  <!-- Step 1 -->
+  <rect x="60" y="212" width="500" height="58" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+  <rect x="60" y="212" width="6" height="58" rx="3" fill="#58a6ff"/>
+  <text x="82" y="235" fill="#7d8590" font-size="10">STEP 1</text>
+  <text x="82" y="253" fill="#e6edf3" font-size="13" font-weight="bold">Sub-Constitution Generator</text>
+  <text x="310" y="253" fill="#7d8590" font-size="11">→  動態生成本輪推理子憲法</text>
+
+  <!-- Human Review Point 2 -->
+  <rect x="572" y="220" width="168" height="42" rx="6" fill="#161b22" stroke="#f0883e" stroke-width="1" stroke-dasharray="4,2"/>
+  <text x="656" y="237" text-anchor="middle" fill="#f0883e" font-size="10">⏸  Human Review</text>
+  <text x="656" y="252" text-anchor="middle" fill="#7d8590" font-size="9">確認子憲法</text>
+
+  <!-- Arrow -->
+  <line x1="310" y1="270" x2="310" y2="290" stroke="#30363d" stroke-width="1.5"/>
+  <polygon points="306,287 314,287 310,294" fill="#30363d"/>
+
+  <!-- Step 2 -->
+  <rect x="60" y="294" width="500" height="58" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+  <rect x="60" y="294" width="6" height="58" rx="3" fill="#d29922"/>
+  <text x="82" y="317" fill="#7d8590" font-size="10">STEP 2  ★ Opus</text>
+  <text x="82" y="335" fill="#e6edf3" font-size="13" font-weight="bold">Compiler Planner</text>
+  <text x="230" y="335" fill="#7d8590" font-size="11">→  設計推理策略藍圖（只設計，不執行）</text>
+
+  <!-- Human Review Point 3 -->
+  <rect x="572" y="302" width="168" height="42" rx="6" fill="#161b22" stroke="#f0883e" stroke-width="1" stroke-dasharray="4,2"/>
+  <text x="656" y="319" text-anchor="middle" fill="#f0883e" font-size="10">⏸  Human Review</text>
+  <text x="656" y="334" text-anchor="middle" fill="#7d8590" font-size="9">確認策略藍圖</text>
+
+  <!-- Arrow -->
+  <line x1="310" y1="352" x2="310" y2="372" stroke="#30363d" stroke-width="1.5"/>
+  <polygon points="306,369 314,369 310,376" fill="#30363d"/>
+
+  <!-- Step 3 -->
+  <rect x="60" y="376" width="500" height="58" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+  <rect x="60" y="376" width="6" height="58" rx="3" fill="#d29922"/>
+  <text x="82" y="399" fill="#7d8590" font-size="10">STEP 3  ★ Opus</text>
+  <text x="82" y="417" fill="#e6edf3" font-size="13" font-weight="bold">Compiler Executor</text>
+  <text x="252" y="417" fill="#7d8590" font-size="11">→  忠實執行藍圖指定的推理策略</text>
+
+  <!-- Arrow -->
+  <line x1="310" y1="434" x2="310" y2="454" stroke="#30363d" stroke-width="1.5"/>
+  <polygon points="306,451 314,451 310,458" fill="#30363d"/>
+
+  <!-- Step 4 -->
+  <rect x="60" y="458" width="500" height="58" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+  <rect x="60" y="458" width="6" height="58" rx="3" fill="#3fb950"/>
+  <text x="82" y="481" fill="#7d8590" font-size="10">STEP 4</text>
+  <text x="82" y="499" fill="#e6edf3" font-size="13" font-weight="bold">Verifier / Reflexion</text>
+  <text x="258" y="499" fill="#7d8590" font-size="11">→  品質審核 + 反思修正</text>
+
+  <!-- Arrow -->
+  <line x1="310" y1="516" x2="310" y2="536" stroke="#30363d" stroke-width="1.5"/>
+  <polygon points="306,533 314,533 310,540" fill="#30363d"/>
+
+  <!-- Step 5 -->
+  <rect x="60" y="540" width="500" height="58" rx="6" fill="#161b22" stroke="#3fb950" stroke-width="1"/>
+  <rect x="60" y="540" width="6" height="58" rx="3" fill="#3fb950"/>
+  <text x="82" y="563" fill="#7d8590" font-size="10">STEP 5</text>
+  <text x="82" y="581" fill="#e6edf3" font-size="13" font-weight="bold">Output Packager</text>
+  <text x="230" y="581" fill="#7d8590" font-size="11">→  封裝成可交付、可使用的成果物 ✓</text>
+
+  <!-- ===== Right legend ===== -->
+  <!-- Color legend -->
+  <text x="572" y="390" fill="#7d8590" font-size="10">色彩說明</text>
+  <rect x="572" y="398" width="10" height="10" rx="2" fill="#58a6ff"/>
+  <text x="588" y="408" fill="#7d8590" font-size="10">準備階段  Prep</text>
+  <rect x="572" y="416" width="10" height="10" rx="2" fill="#d29922"/>
+  <text x="588" y="426" fill="#7d8590" font-size="10">核心推理  Core</text>
+  <rect x="572" y="434" width="10" height="10" rx="2" fill="#3fb950"/>
+  <text x="588" y="444" fill="#7d8590" font-size="10">審核輸出  QC</text>
+
+  <!-- Principles -->
+  <text x="572" y="475" fill="#7d8590" font-size="10">核心原則</text>
+  <text x="572" y="493" fill="#58a6ff" font-size="10">· Human-first</text>
+  <text x="572" y="509" fill="#58a6ff" font-size="10">· Auditable</text>
+  <text x="572" y="525" fill="#58a6ff" font-size="10">· Teachable</text>
+  <text x="572" y="541" fill="#58a6ff" font-size="10">· Maintainable</text>
+
+  <!-- Footer -->
+  <line x1="60" y1="606" x2="740" y2="606" stroke="#21262d" stroke-width="1"/>
+  <text x="400" y="618" text-anchor="middle" fill="#484f58" font-size="9">github.com/[your-username]/crc-complex-reasoning-compiler · MIT License</text>
+
+</svg>
